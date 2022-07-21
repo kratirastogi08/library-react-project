@@ -1,0 +1,39 @@
+.expanded ul {
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    right: 0;
+    top: 64px;
+    transition: all 0.5s ease-in-out;
+  }
+  .expanded{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+  z-index: 99;
+  }
+  .navigation-menu{
+      display: none;
+  }
+
+  .expanded li {
+   list-style-type: none;
+     margin-bottom: 20px;
+     width: 100%;
+     text-align: center;
+  }
+  .expanded li:last-child {
+    margin-bottom: 0px;
+  }
+  .expanded li a,.expanded li:last-child a {
+    width: 100px;
+    display: block;
+    margin: auto;color: white;
+    text-decoration: none;
+  } 
+  .expanded ul:hover {
+    background-color: rgb(228, 226, 226);
+  }

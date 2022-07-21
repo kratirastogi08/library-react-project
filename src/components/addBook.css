@@ -1,0 +1,35 @@
+
+.form-control{
+    padding: 10px;
+    height:100% ;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font: 300 0.9vmax cursive;
+    outline: none;
+}
+.add-btn {
+    margin-top: 2vmax;
+    border: none;
+    background-color: tomato;
+    color: white;
+    font: 300 0.9vmax "Roboto";
+    width: 100%;
+    padding: 0.8vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+  }
+
+  .success-msg{
+    color: green;
+  }
+  .error{
+      color: red;
+  }
+  .disabled-btn{
+      background-color: rgba(255, 146, 95, 0.219);
+  }
